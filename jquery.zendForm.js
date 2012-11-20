@@ -1,12 +1,12 @@
 /*
  *
- * jQuery nullfox Form Plugin
+ * jQuery Zend Form Plugin
  * Requires jQuery and jQuery Form Plugin
  * Ben Fox
  *
  */
 (function($) {
-    $.nfForm = {
+    $.zendForm = {
         options: {
             clearForm: false,
             extraData: {},
@@ -23,7 +23,7 @@
         }
     };
     
-    $.fn.nfForm = function(options) {
+    $.fn.zendForm = function(options) {
         return $(this).each(function() {
             var opts = $.extend({}, $.scForm.options, options);
             
